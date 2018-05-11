@@ -15,4 +15,6 @@ Lab 3: [Puppet facts](labs/03-facts)
 
 Lab 4: [Class inheritance](labs/04-inheritance)
 
+Lab 5: [Write a custom module](labs/05-custom-module)
+
 
