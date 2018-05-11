@@ -127,7 +127,7 @@ one using `else` and the other  `elsif`
 ## Lambda iteration
 Now let's create a few different files by iterating over a `lambda` array.
 
-Create `~/manifests/iteration1.pp` with the following
+Create `~/manifests/iteration.pp` with the following
 ```bash
 $files = ['test1', 'test2', 'test3', 'test4', 'test5']
 
