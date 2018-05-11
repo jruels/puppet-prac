@@ -2,6 +2,8 @@
 
 This site contains the content and labs for the Puppet Practitioner course.
 
+## [Course Content](https://www.dropbox.com/sh/zyc5yxvujnspsh4/AAAgYBwu4kH7qk5Ovg3TaKKXa?dl=0)
+
 
 ## Labs
 
