@@ -78,7 +78,7 @@ At this point, Puppet configures Apache and starts the `httpd` service. When thi
 
 On `wiki`, open `/etc/httpd/conf.d/15-default.conf`
 ```
-sudo vim /etc/httpd/conf.d
+sudo vim /etc/httpd/conf.d/15-default.conf
 ```
 
 Now you should see something like the following 
