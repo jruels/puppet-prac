@@ -114,7 +114,7 @@ you may have noticed that nothing actually happened...   this is because we used
 If there were no errors you can apply the manifest now. 
 
 ```bash
-sudo puppet agent --verbose --no-daemonize --onetime --noop
+sudo puppet agent --verbose --no-daemonize --onetime 
 ```
 
 
