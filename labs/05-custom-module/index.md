@@ -18,7 +18,7 @@ In this exercise, you’ll modify a template from the Puppet Apache module, spec
 
 On the Puppet master, navigate to the modules directory by running 
 ```
-cd /etc/puppetlabs/code/environments/production/modules.
+cd /etc/puppetlabs/code/environments/production/modules
 ```
 
 Now run `ls` to view installed modules: 
@@ -47,8 +47,14 @@ facter osfamily.
 ```
 This returns your agent’s OS.
 
-on your `wiki` node run `facter id`. This returns the `id` of the currently logged in user.
-Edit the header of `_file_header.erb` so that it contains the following variables for Facter lookups:
+on your `wiki` node also run
+```
+facter id
+``` 
+
+This returns the `id` of the currently logged in user.
+
+Edit the header of `_file_header.erb` so that it contains the following variables for `Facter` lookups:
 ```ruby
  # ************************************
  # Vhost template in module puppetlabs-apache
@@ -111,7 +117,7 @@ sudo mkdir -p puppet_quickstart_app/manifests
  to create the new module directory and its manifests directory.
 Create the `init.pp` file 
 ```
-sudo vim puppet_quickstart_app/manifests/init.pp file.
+sudo vim puppet_quickstart_app/manifests/init.pp
 ```
 
 Add the following: 
